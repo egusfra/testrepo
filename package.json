@@ -1,0 +1,23 @@
+{
+  "name": "user-management-service",
+  "version": "1.0.0",
+  "description": "User Management Service for learning platform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "supertest": "^6.1.6"
+  },
+  "author": "egusfra",
+  "license": "ISC"
+}

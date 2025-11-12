@@ -1,7 +1,8 @@
-const createServer = require('./config/server');
+require('dotenv').config(); // Load environment variables
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const errorMiddleware = require('./middleware/errorMiddleware');
+const createServer = require('./config/server');
 const app = createServer();
 
 // Connect to Database
